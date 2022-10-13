@@ -12,15 +12,15 @@ def main(n):
     x3=n%1000//100
     x4=n//1000%10
     x5=n//10000
-    mx=x1
-    if mx<x2:
-        mx=2
-    if mx<x3:
-        mx=3
-    if mx<x4:
-        mx=4
-    if mx<x5:
-        mx=5
-    return mx
-print(main(95483))
+    answer=x1
+    if answer<x2:
+        answer=2
+    if answer<x3:
+        answer=3
+    if answer<x4:
+        answer=4
+    if answer<x5:
+        answer=5
+    return answer
+print(main(11986))
     

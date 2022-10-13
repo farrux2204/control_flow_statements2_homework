@@ -13,15 +13,14 @@ def main(n):
     x4=n//1000%10
     x5=n//10000
     mx=x1
-    index=0
     if mx<x2:
-        index=2
-    elif mx<x3:
-        index=3
-    elif mx<x4:
-        index=4
+        mx=2
+    if mx<x3:
+        mx=3
+    if mx<x4:
+        x=4
     else:
-        index=5
-    return index
-print(main(56478))
+        mx=5
+    return mx
+print(main(18927))
     

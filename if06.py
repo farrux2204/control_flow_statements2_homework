@@ -18,9 +18,9 @@ def main(n):
     if mx<x3:
         mx=3
     if mx<x4:
-        x=4
-    else:
+        mx=4
+    if mx<x5:
         mx=5
     return mx
-print(main(18927))
+print(main(95483))
     
